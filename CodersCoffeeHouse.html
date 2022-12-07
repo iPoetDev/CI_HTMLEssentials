@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Best Website in the Universe</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <title>Coders Coffeehouse</title>
+    <!-- This link imports the css code from a separate file. You will learn more about this in the CSS module -->
+	<link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
     <html lang="en-US">
@@ -12,10 +11,10 @@
         <title>Coders Coffeehouse</title>
     </head>
     <body>
-
-        <h1>Welcome to Coders Coffeehouse!</h1>
-        <p>Turning caffeine into code since 1999.</p>
-        
+        <div class="text-center">
+            <h1>Welcome to Coders Coffeehouse!</h1>
+            <p>Turning caffeine into code since 1999.</p>
+        </div>
         <hr>
         <h2>Reasons to like us</h2>
          <!--
@@ -25,7 +24,7 @@
         By default, it will not share horizontal space with any other element.
         -->
 
-        <div style="background-color: chocolate;"> <!-- div is openend here -->
+        <div style="background-color: chocolate;" class="text-center text-white"> <!-- div is openend here -->
 		    <h2>Reasons to love us</h2>
 		    <!-- Move the three reasons paragraphs inside this div -->
             <p>Free unlimited wifi</p>
@@ -37,21 +36,22 @@
             <p>High quality coffee <br> to fuel your code</p>
 
         </div> <!-- div is closed here -->
+        <div class="text-center">
+            <!-- Give this div an id of coffee-box and a class of text-white -->
+            <div id="coffee-box" class="text-white">
+                <h3>Coffee</h3>
+            </div>
 
+            <!-- Give this div an id of tea-box and a class of text-white-->
+            <div id="tea-box" class="text-white">
+                <h3>Tea</h3>
+            </div>
 
-
-
-
-
-
-        <h2>Drinks Menu</h2>
-
-        <h3>Coffee</h3>
-
-        <h3>Tea</h3>
-
-        <h3>Cold drinks</h3>
-
+            <!-- Give this div an id of cold-drinks-box and a class of text-white -->
+            <div id="cold-drinks-box" class="text-white">
+                <h3>Cold drinks</h3>
+            </div>
+        </div>
         <h2>Contact</h2>
 
         <h3>Open Times</h3>

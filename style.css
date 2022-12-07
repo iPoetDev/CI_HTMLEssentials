@@ -1,0 +1,43 @@
+.text-center {
+	text-align: center;
+}
+
+.text-white {
+	color: white;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+/* .main-heading {
+    text-align: center;
+    background: yellow;
+    color: red;
+    border: 1px solid red;
+    width: 75%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #ccc;
+} */
+
+#coffee-box {
+    background-color: brown;
+}
+
+#tea-box {
+    background-color: #6f4e37;
+}
+
+#cold-drinks-box {
+    background-color: chocolate;
+}
+
+.blue-text {
+    color: blue;
+}
+
+#red-text {
+    color: red;
+}
