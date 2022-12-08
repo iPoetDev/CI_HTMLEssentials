@@ -11,40 +11,56 @@
         <title>Coders Coffeehouse</title>
     </head>
     <body>
-        <div class="text-center">
+        <div class="text-center" id="home">
             <h1>Welcome to Coders Coffeehouse!</h1>
             <p>Turning caffeine into code since 1999.</p>
         </div>
         <hr>
-        <h2>Reasons to like us</h2>
-         <!--
-        Notice how when you run this code the background colour 
-        stretches the full width available.  
-        This is the entire area the div takes up. 
-        By default, it will not share horizontal space with any other element.
-        -->
+        <!-- Add your internal links for home, drinks menu and contact here -->
+        <div>    
+            <a href="#Home">Home</a> 
+            <a href="#Drinks Menu">Drinks Menu</a> 
+            <a href="#Contact">Contact</a>  
+        </div>
+        <div>
+            <h2>Reasons to like us</h2>
+        </div>
+            
 
         <div style="background-color: chocolate;" class="text-center text-white"> <!-- div is openend here -->
 		    <h2>Reasons to love us</h2>
-		    <!-- Move the three reasons paragraphs inside this div -->
-            <p>Free unlimited wifi</p>
-            <!-- 
-            the <br> element creates a line break in a paragraph element,
-            and it does not have a closing tag. 
-            -->
-            <p>Charging outlets <br> with every table</p>
-            <p>High quality coffee <br> to fuel your code</p>
-
-        </div> <!-- div is closed here -->
-        <div class="text-center">
+            <ol>
+                <li type="I">Free unlimited wifi</li>
+                <li type="I">harging outlets <br> with every table</li>            
+                <li type="I">High quality coffee <br> to fuel your code</li>
+            </ol>
+            </div> <!-- div is closed here -->
+            <div class="text-center" id="Drinks Menu">
             <!-- Give this div an id of coffee-box and a class of text-white -->
             <div id="coffee-box" class="text-white">
                 <h3>Coffee</h3>
+                <ul>
+                    <li>Latte</li>
+                    <li>Americano</li>
+                    <li>Cappuccino</li>
+                    <li>Espresso</li>
+                    <li>Irish Coffee</li>
+                    <li>Macchiato</li>
+                    <li>Flat White</li>
+                </ul>
             </div>
 
             <!-- Give this div an id of tea-box and a class of text-white-->
             <div id="tea-box" class="text-white">
                 <h3>Tea</h3>
+                <ul>
+                    <li>Earl Grey</li>
+                    <li>Green Tea</li>
+                    <li>Lemon Tea</li>
+                    <li>Peppermint Tea</li>
+                    <li>Ginger Tea</li>
+                    <li>Mint Tea</li>
+                </ul>
             </div>
 
             <!-- Give this div an id of cold-drinks-box and a class of text-white -->
@@ -52,22 +68,24 @@
                 <h3>Cold drinks</h3>
             </div>
         </div>
-        <h2>Contact</h2>
-
-        <h3>Open Times</h3>
-
-        <h3>Get in touch</h3>
+        <div id="Contact">
+            <h2>Contact</h2>
+            
+            <h3>Open Times</h3>
+            
+            <h3>Get in touch</h3>
             <span style="font-weight: bold;">Phone: </span>
             <span style="font-weight: normal;">012 345 678 910  </span>
-
-        <h3>Address</h3>
-        <p>
-        Coder Coffeehouse<br />
-        42 Coffebean street<br />
-        Dublin
-        </p>
-        
-
+            
+            <h3>Address</h3>
+            <p>
+                Coder Coffeehouse<br />
+                42 Coffebean street<br />
+                Dublin
+            </p>
+        </div>
+        	  <!-- Add your external links for Facebook, Twitter and Instagram here -->
+        <a href="https://www.facebook.com/" rel="noopener" target="_blank">Find us on Facebook</a> <a href="https://www.twitter.com/" rel="noopener" target="_blank">Find us on Twitter</a> <a href="https://www.instagram.com/" rel="noopener" target="_blank">Find us on Instagram</a>
 
     </body>
 </html>
