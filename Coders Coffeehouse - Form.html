@@ -2,160 +2,167 @@
 
 <html lang="en">
 
-	<head>
-		<title>Win a years supply of coffee from Coders Coffeehouse</title>
-		<link rel="stylesheet" href="style.css" />
-	</head>
+    <head>
+        <title>Win a years supply of coffee from Coders Coffeehouse</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-	<body>
-		<h1>Win a years supply of coffee from Coders Coffeehouse</h1>
+    <body>
+        <h1>Win a years supply of coffee from Coders Coffeehouse</h1>
 
-		<p>Complete our survey for your chance to win!</p>
-		<hr />
-		<div>
+        <p>Complete our survey for your chance to win!</p>
+        <hr />
+        <div>
 
-			<form action="https://formdump.codeinstitute.net" method="POST">
-				<div>
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <fieldset>
+                    <legend>Your details</legend>
+                    <div>
 
-					<label for="name-field">Name</label>
+                        <label for="name-field">Name</label>
 
-					<input id="name-field" type="text" name="full_name" placeholder="Your name" />
-				</div>
-				<div>
+                        <input id="name-field" type="text" name="full_name" placeholder="Your name"
+                            required />
+                    </div>
+                    <div>
 
-					<label for="email-field">Email</label>
+                        <label for="email-field">Email</label>
 
-					<input id="email-field" type="email" name="email" placeholder="Your email" />
-				</div>
-				<div>
+                        <input id="email-field" type="email" name="email" placeholder="Your email"
+                            required />
+                    </div>
+                    <div>
 
-					<label for="age">Age</label>
+                        <label for="age">Age</label>
 
-					<select name="age" id="age">
-						<option value="under-20">Unders 20s</option>
-						<option value="20s">20-29</option>
-						<option value="30s">30-39</option>
-						<option value="40s">40-49</option>
-						<option value="50s">50-59</option>
-						<option value="60+">60+</option>
-					</select>
-				</div>
-				<div>
+                        <select name="age" id="age" required>
+                            <option value="under-20">Unders 20s</option>
+                            <option value="20s">20-29</option>
+                            <option value="30s">30-39</option>
+                            <option value="40s">40-49</option>
+                            <option value="50s">50-59</option>
+                            <option value="60+">60+</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <div>
 
-					<label for="fav-coffee">What is your favourite coffee?</label>
+                    <label for="fav-coffee">What is your favourite coffee?</label>
 
-					<input type="text" id="fav-coffee" name="fav-coffee">
+                    <input type="text" id="fav-coffee" name="fav-coffee">
 
-					<datalist id="coffees">
-						<option value="latte">Latte</option>
-						<option value="americano">Americano</option>
-						<option value="cappuccino">Cappuccino</option>
-						<option value="expresso">Espresso</option>
-						<option value="flat-white">Flat-white</option>
-					</datalist>
-				</div>
-				<div>
+                    <datalist id="coffees">
+                        <option value="latte">Latte</option>
+                        <option value="americano">Americano</option>
+                        <option value="cappuccino">Cappuccino</option>
+                        <option value="expresso">Espresso</option>
+                        <option value="flat-white">Flat-white</option>
+                    </datalist>
+                </div>
+                <div>
 
-					<input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio" />
+                    <input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio"
+                        required />
 
-					<label for="0-2cups-radio">0 to 2 cups</label>
+                    <label for="0-2cups-radio">0 to 2 cups</label>
 
-					<input id="3-5cups-radio" name="cups-a-day" value="3-5cups" type="radio" />
+                    <input id="3-5cups-radio" name="cups-a-day" value="3-5cups" type="radio" />
 
-					<label for="3-5cups-radio">3 to 5 cups</label>
+                    <label for="3-5cups-radio">3 to 5 cups</label>
 
-					<input id="6-8cups-radio" name="cups-a-day" value="6-8cups" type="radio" />
+                    <input id="6-8cups-radio" name="cups-a-day" value="6-8cups" type="radio" />
 
-					<label for="6-8cups-radio">6 to 8 cups</label>
+                    <label for="6-8cups-radio">6 to 8 cups</label>
 
-					<input id="9plus-cups-radio" name="cups-a-day" value="9plus-cups"
-						type="radio" />
+                    <input id="9plus-cups-radio" name="cups-a-day" value="9plus-cups"
+                        type="radio" />
 
-					<label for="9plus-cups-radio">9 or more cups</label>
+                    <label for="9plus-cups-radio">9 or more cups</label>
 
-					<label for="feedback">How can we improve your experience with us?</label>
-					<br>
+                    <label for="feedback">How can we improve your experience with us?</label>
+                    <br>
 
-					<textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
-					<button type="submit"><strong>Enter Prize Draw</strong></button>
+                    <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+                    <button type="submit"><strong>Enter Prize Draw</strong></button>
 
-					<input type="reset" value="Reset Form">
-				</div>
+                    <input type="reset" value="Reset Form">
+                </div>
 
-			</form>
-		</div>
+            </form>
+        </div>
 
-		<form>
-			<!-- Add your radio group for visit-frequency here -->
+        <form>
+            <!-- Add your radio group for visit-frequency here -->
 
-			<p>How often do you visit Coders Coffeehouse?</p>
+            <p>How often do you visit Coders Coffeehouse?</p>
 
-			<input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio" />
+            <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio"
+                required />
 
-			<label for="once-a-week">Once a week</label>
+            <label for="once-a-week">Once a week</label>
 
-			<input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio" />
+            <input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio" />
 
-			<label for="once-a-fortnight">Twice a week</label>
+            <label for="once-a-fortnight">Twice a week</label>
 
-			<input id="once-a-fortnight" name="visit-frequency" value="once-a-fortnight"
-				type="radio" />
+            <input id="once-a-fortnight" name="visit-frequency" value="once-a-fortnight"
+                type="radio" />
 
-			<label for="once-a-fortnight">Once a Fortnight</label>
+            <label for="once-a-fortnight">Once a Fortnight</label>
 
-			<input id="None" name="visit-frequency" value="None" type="radio" />
+            <input id="None" name="visit-frequency" value="None" type="radio" />
 
-			<label for="None">None</label>
-			</div>
-			<div>
+            <label for="None">None</label>
+            </div>
+            <div>
 
-				<p class="bold">Which of our coders coffeehouse snacks do you enjoy?</p>
+                <p class="bold">Which of our coders coffeehouse snacks do you enjoy?</p>
 
-				<div>
+                <div>
 
-					<input type="checkbox" id="brownies-checkbox" name="brownies" />
+                    <input type="checkbox" id="brownies-checkbox" name="brownies" />
 
-					<label for="brownies-checkbox">Brownies</label>
-				</div>
+                    <label for="brownies-checkbox">Brownies</label>
+                </div>
 
-				<div>
+                <div>
 
-					<input type="checkbox" id="cookies-checkbox" name="cookies" />
+                    <input type="checkbox" id="cookies-checkbox" name="cookies" />
 
-					<label for="cookies-checkbox">Cookies</label>
-				</div>
+                    <label for="cookies-checkbox">Cookies</label>
+                </div>
 
-				<div>
+                <div>
 
-					<input type="checkbox" id="nachos-checkbox" name="nachos" />
+                    <input type="checkbox" id="nachos-checkbox" name="nachos" />
 
-					<label for="nachos-checkbox">Nachos</label>
-				</div>
-				<div>
+                    <label for="nachos-checkbox">Nachos</label>
+                </div>
+                <div>
 
-					<input type="checkbox" id="croissant-checkbox" name="Croissant" />
+                    <input type="checkbox" id="croissant-checkbox" name="Croissant" />
 
-					<label for="croissant-checkbox">Crossiant</label>
-				</div>
-				<div>
+                    <label for="croissant-checkbox">Crossiant</label>
+                </div>
+                <div>
 
-					<input type="checkbox" id="scones-checkbox" name="scones" />
+                    <input type="checkbox" id="scones-checkbox" name="scones" />
 
-					<label for="scone-checkbox">Scones</label>
-				</div>
+                    <label for="scone-checkbox">Scones</label>
+                </div>
 
-				<!-- Add your checkboxes for Croissants and Scones here -->
-			</div>
-			<!-- Add your textarea and label here -->
+                <!-- Add your checkboxes for Croissants and Scones here -->
+            </div>
+            <!-- Add your textarea and label here -->
 
-			<label for="feedback">What can we do to improve your experience with us?</label><br />
+            <label for="feedback">What can we do to improve your experience with us?</label><br />
 
-			<input textarea="" id="feedback" placeholder="Your feedback" cols="80" rows="5" />
+            <input textarea="" id="feedback" placeholder="Your feedback" cols="80" rows="5" />
 
-			<input type="submit" value="Enter Prize Draw" />
-		</form>
+            <input type="submit" value="Enter Prize Draw" />
+        </form>
 
-		<!-- Add your form elements here  -->
-	</body>
+        <!-- Add your form elements here  -->
+    </body>
 
 </html>
