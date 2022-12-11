@@ -2,167 +2,172 @@
 
 <html lang="en">
 
-    <head>
-        <title>Win a years supply of coffee from Coders Coffeehouse</title>
-        <link rel="stylesheet" href="style.css" />
-    </head>
+	<head>
+		<title>Win a years supply of coffee from Coders Coffeehouse</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
 
-    <body>
-        <h1>Win a years supply of coffee from Coders Coffeehouse</h1>
+	<body>
 
-        <p>Complete our survey for your chance to win!</p>
-        <hr />
-        <div>
+		<header>
+			<h1>Win a years supply of coffee from Coders Coffeehouse</h1>
 
-            <form action="https://formdump.codeinstitute.net" method="POST">
-                <fieldset>
-                    <legend>Your details</legend>
-                    <div>
+			<p>Complete our survey for your chance to win!</p>
+		</header>
+		<hr />
+		<div>
 
-                        <label for="name-field">Name</label>
+			<form action="https://formdump.codeinstitute.net" method="POST">
+				<fieldset>
 
-                        <input id="name-field" type="text" name="full_name" placeholder="Your name"
-                            required />
-                    </div>
-                    <div>
+					<legend>Your details</legend>
+					<div>
 
-                        <label for="email-field">Email</label>
+						<label for="name-field">Name</label>
 
-                        <input id="email-field" type="email" name="email" placeholder="Your email"
-                            required />
-                    </div>
-                    <div>
+						<input id="name-field" type="text" name="full_name" placeholder="Your name"
+							required />
+					</div>
+					<div>
 
-                        <label for="age">Age</label>
+						<label for="email-field">Email</label>
 
-                        <select name="age" id="age" required>
-                            <option value="under-20">Unders 20s</option>
-                            <option value="20s">20-29</option>
-                            <option value="30s">30-39</option>
-                            <option value="40s">40-49</option>
-                            <option value="50s">50-59</option>
-                            <option value="60+">60+</option>
-                        </select>
-                    </div>
-                </fieldset>
-                <div>
+						<input id="email-field" type="email" name="email" placeholder="Your email"
+							required />
+					</div>
+					<div>
 
-                    <label for="fav-coffee">What is your favourite coffee?</label>
+						<label for="age">Age</label>
 
-                    <input type="text" id="fav-coffee" name="fav-coffee">
+						<select name="age" id="age" required>
+							<option value="under-20">Unders 20s</option>
+							<option value="20s">20-29</option>
+							<option value="30s">30-39</option>
+							<option value="40s">40-49</option>
+							<option value="50s">50-59</option>
+							<option value="60+">60+</option>
+						</select>
+					</div>
+				</fieldset>
+				<div>
 
-                    <datalist id="coffees">
-                        <option value="latte">Latte</option>
-                        <option value="americano">Americano</option>
-                        <option value="cappuccino">Cappuccino</option>
-                        <option value="expresso">Espresso</option>
-                        <option value="flat-white">Flat-white</option>
-                    </datalist>
-                </div>
-                <div>
+					<label for="fav-coffee">What is your favourite coffee?</label>
 
-                    <input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio"
-                        required />
+					<input type="text" id="fav-coffee" name="fav-coffee">
 
-                    <label for="0-2cups-radio">0 to 2 cups</label>
+					<datalist id="coffees">
+						<option value="latte">Latte</option>
+						<option value="americano">Americano</option>
+						<option value="cappuccino">Cappuccino</option>
+						<option value="expresso">Espresso</option>
+						<option value="flat-white">Flat-white</option>
+					</datalist>
+				</div>
+				<div>
 
-                    <input id="3-5cups-radio" name="cups-a-day" value="3-5cups" type="radio" />
+					<input id="0-2cups-radio" name="cups-a-day" value="0-2cups" type="radio"
+						required />
 
-                    <label for="3-5cups-radio">3 to 5 cups</label>
+					<label for="0-2cups-radio">0 to 2 cups</label>
 
-                    <input id="6-8cups-radio" name="cups-a-day" value="6-8cups" type="radio" />
+					<input id="3-5cups-radio" name="cups-a-day" value="3-5cups" type="radio" />
 
-                    <label for="6-8cups-radio">6 to 8 cups</label>
+					<label for="3-5cups-radio">3 to 5 cups</label>
 
-                    <input id="9plus-cups-radio" name="cups-a-day" value="9plus-cups"
-                        type="radio" />
+					<input id="6-8cups-radio" name="cups-a-day" value="6-8cups" type="radio" />
 
-                    <label for="9plus-cups-radio">9 or more cups</label>
+					<label for="6-8cups-radio">6 to 8 cups</label>
 
-                    <label for="feedback">How can we improve your experience with us?</label>
-                    <br>
+					<input id="9plus-cups-radio" name="cups-a-day" value="9plus-cups"
+						type="radio" />
 
-                    <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
-                    <button type="submit"><strong>Enter Prize Draw</strong></button>
+					<label for="9plus-cups-radio">9 or more cups</label>
 
-                    <input type="reset" value="Reset Form">
-                </div>
+					<label for="feedbacks">How can we improve your experience with us?</label>
+					<br>
 
-            </form>
-        </div>
+					<textarea id="feedbacks" rows="4" cols="87" name="feedbacks"></textarea>
+					<button type="submit"><strong>Enter Prize Draw</strong></button>
 
-        <form>
-            <!-- Add your radio group for visit-frequency here -->
+					<input type="reset" value="Reset Form">
+				</div>
 
-            <p>How often do you visit Coders Coffeehouse?</p>
+			</form>
+		</div>
 
-            <input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio"
-                required />
+		<form>
+			<!-- Add your radio group for visit-frequency here -->
+			<div>
 
-            <label for="once-a-week">Once a week</label>
+				<p>How often do you visit Coders Coffeehouse?</p>
 
-            <input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio" />
+				<input id="once-a-week" name="visit-frequency" value="once-a-week" type="radio"
+					required />
 
-            <label for="once-a-fortnight">Twice a week</label>
+				<label for="once-a-week">Once a week</label>
 
-            <input id="once-a-fortnight" name="visit-frequency" value="once-a-fortnight"
-                type="radio" />
+				<input id="twice-a-week" name="visit-frequency" value="twice-a-week" type="radio" />
 
-            <label for="once-a-fortnight">Once a Fortnight</label>
+				<label for="twice-a-week">Twice a week</label>
 
-            <input id="None" name="visit-frequency" value="None" type="radio" />
+				<input id="once-a-fortnight" name="visit-frequency" value="once-a-fortnight"
+					type="radio" />
 
-            <label for="None">None</label>
-            </div>
-            <div>
+				<label for="once-a-fortnight">Once a Fortnight</label>
 
-                <p class="bold">Which of our coders coffeehouse snacks do you enjoy?</p>
+				<input id="None" name="visit-frequency" value="None" type="radio" />
 
-                <div>
+				<label for="None">None</label>
+			</div>
+			<div>
 
-                    <input type="checkbox" id="brownies-checkbox" name="brownies" />
+				<p class="bold">Which of our coders coffeehouse snacks do you enjoy?</p>
 
-                    <label for="brownies-checkbox">Brownies</label>
-                </div>
+				<div>
 
-                <div>
+					<input type="checkbox" id="brownies-checkbox" name="brownies" />
 
-                    <input type="checkbox" id="cookies-checkbox" name="cookies" />
+					<label for="brownies-checkbox">Brownies</label>
+				</div>
 
-                    <label for="cookies-checkbox">Cookies</label>
-                </div>
+				<div>
 
-                <div>
+					<input type="checkbox" id="cookies-checkbox" name="cookies" />
 
-                    <input type="checkbox" id="nachos-checkbox" name="nachos" />
+					<label for="cookies-checkbox">Cookies</label>
+				</div>
 
-                    <label for="nachos-checkbox">Nachos</label>
-                </div>
-                <div>
+				<div>
 
-                    <input type="checkbox" id="croissant-checkbox" name="Croissant" />
+					<input type="checkbox" id="nachos-checkbox" name="nachos" />
 
-                    <label for="croissant-checkbox">Crossiant</label>
-                </div>
-                <div>
+					<label for="nachos-checkbox">Nachos</label>
+				</div>
+				<div>
 
-                    <input type="checkbox" id="scones-checkbox" name="scones" />
+					<input type="checkbox" id="croissant-checkbox" name="Croissant" />
 
-                    <label for="scone-checkbox">Scones</label>
-                </div>
+					<label for="croissant-checkbox">Crossiant</label>
+				</div>
+				<div>
 
-                <!-- Add your checkboxes for Croissants and Scones here -->
-            </div>
-            <!-- Add your textarea and label here -->
+					<input type="checkbox" id="scones-checkbox" name="scones" />
 
-            <label for="feedback">What can we do to improve your experience with us?</label><br />
+					<label for="scones-checkbox">Scones</label>
+				</div>
 
-            <input textarea="" id="feedback" placeholder="Your feedback" cols="80" rows="5" />
+				<!-- Add your checkboxes for Croissants and Scones here -->
+			</div>
+			<!-- Add your textarea and label here -->
 
-            <input type="submit" value="Enter Prize Draw" />
-        </form>
+			<label for="feedback">What can we do to improve your experience with us?</label><br />
 
-        <!-- Add your form elements here  -->
-    </body>
+			<input textarea="" id="feedback" placeholder="Your feedback" cols="80" rows="5" />
+
+			<input type="submit" value="Enter Prize Draw" />
+		</form>
+
+		<!-- Add your form elements here  -->
+	</body>
 
 </html>
